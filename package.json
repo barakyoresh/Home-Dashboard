@@ -1,0 +1,25 @@
+{
+  "name": "home-dashboard",
+  "version": "1.0.0",
+  "description": "Interface for future home automation.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://barakyoresh@github.com/barakyoresh/Home-Dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barakyoresh/Home-Dashboard/issues"
+  },
+  "homepage": "https://github.com/barakyoresh/Home-Dashboard#readme",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "https": "^1.0.0"
+  }
+}
