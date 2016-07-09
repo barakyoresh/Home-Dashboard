@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="public/bower_components/angular-material/angular-material.css">
+    <script src="public/bower_components/angular/angular.min.js"></script>
+    <script src="public/bower_components/angular-aria/angular-aria.js"></script>
+    <script src="public/bower_components/angular-animate/angular-animate.js"></script>
+    <script src="public/bower_components/angular-material/angular-material.js"></script>
+    <script src="public/bower_components/cryptojs/crypto.js"></script>
+    <script src="public/app.js"></script>
+  </head>
+  <body ng-app="Dashboard" ng-controller="LoginCtrl as main">
+
+    <md-card layout-align="center center" layout-fill="layout-fill">
+        <div layout="column" class="loginBox md-whiteframe-z1" style="width: 500px">
+            <md-toolbar>
+                <h2 class="md-toolbar-tools"><span>Login</span></h2>
+            </md-toolbar>
+            <md-content layout="column" class="md-padding">
+                <md-input-container>
+                    <label>EmailAddress</label>
+                    <input type="email" ng-model="username" />
+                </md-input-container>
+                <md-input-container>
+                    <label>Password</label>
+                    <input type="password" ng-model="password" />
+                </md-input-container>
+                <div layout="row" layout-align="center center" style="padding-top:20px;">
+                    <md-button class="md-raised md-primary" ng-click="login()">Login</md-button>
+                </div>
+            </md-content>
+        </div>
+    </md-card>
+  </body>
+</html>
