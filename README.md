@@ -1,2 +1,2 @@
 # Home-Dashboard
-Interface for future home automation?!
+Interface for future home automation?#$$%#
